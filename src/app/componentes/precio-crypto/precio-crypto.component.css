@@ -1,0 +1,44 @@
+#priceCompra{
+    color: #94C456;
+}
+#priceVenta{
+    color: #94C456;
+}
+@media (max-width: 576px) {
+    #priceCompra{
+        text-align: center;
+    }
+    #compra{
+        text-align: center;
+    }
+    #priceVenta{
+        text-align: center;
+    }
+    #venta{
+        text-align: center;
+    }
+}
+@media (max-width: 350px){
+    .container{
+        font-size: x-large;
+    }
+}
+@media (min-width: 576px){
+    #compra{
+        text-align: right;
+        padding-right: 5%;
+    }
+    #venta{
+        text-align: left;
+        padding-left: 5%;
+    }
+    #priceCompra{
+        text-align: right;
+        padding-right: 5%;
+    }
+    #priceVenta{
+        text-align: left;
+        padding-left: 5%;
+    }
+   
+}
