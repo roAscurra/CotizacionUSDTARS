@@ -27,7 +27,9 @@ export class PrecioCryptoComponent implements OnInit{
   imprimir=()=>{this.bigDataCompra(),this.bigDataVenta()}
 
   ngOnInit(): void {
-    setInterval(this.imprimir,1000)
+    this.bigDataCompra();
+    this.bigDataVenta();
+    setInterval(this.imprimir,1000);
   }
   
 }
