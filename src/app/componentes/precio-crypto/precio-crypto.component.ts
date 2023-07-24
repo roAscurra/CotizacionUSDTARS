@@ -35,10 +35,10 @@ export class PrecioCryptoComponent implements OnInit{
 }
 
 let precioCompra= function cotizacionCompra(data:any) {
-    return data-(data*1/100) 
+    return data + (data * 1/100)
 }
 
 let precioVenta= function cotizacionVenta(data:any) {
-  return data-(data*6.5/100)
+  return data - (data * 5.5/100)
 }
 
